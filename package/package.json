@@ -37,7 +37,9 @@
 		"./layouts/qwerty/wordle": "./layouts/qwerty/wordle.js",
 		"./svg/backspace": "./svg/backspace.js",
 		"./svg/enter": "./svg/enter.js",
-		".": "./Keyboard.svelte"
+		".": {
+			"svelte": "./Keyboard.svelte"
+		}
 	},
 	"type": "module",
 	"typings": "./Keyboard.svelte.d.ts",
